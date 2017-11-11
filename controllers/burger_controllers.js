@@ -27,11 +27,19 @@ router.post("/burgers/create", function(req, res) {
 		});
 	});
 
-router.put('/index/update/:id', function(req,res) {
+router.put('/burgers/update/:id', function(req,res) {
 	var condition = 'id = ' + req.params.id;
-
-	burger.update({'devoured' : req.body.devoured}, condition, function(data){
+		console.log("condition: " + condition);
+	burger.updateOne({'devoured' : req.body.devoured}, condition, function(data){
 		res.redirect('/burgers');
+	});
+});
+
+router.delete("/:id", function(req, res){
+	var condition = "id = " + req.params.id;
+
+	burger.delete(condition, function(){
+		res.redirect("/");
 	});
 });
 
