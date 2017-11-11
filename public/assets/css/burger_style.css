@@ -1,0 +1,29 @@
+h1 {
+	text-align: center;
+}
+
+img {
+	width: 400px;
+	height: 400px;
+}
+
+
+        .st0{fill:#3A9E86;}
+		.st1{fill:#FDFDFD;}
+		.st2{fill:#78BCAC;}
+		.st3{fill:#E2A02B;}
+		.st4{fill:#E1A02A;}
+		.st5{fill:#844834;}
+		.st6{fill:#FDC21A;}
+		.st7{fill:#E16245;}
+		.st8{fill:#F8C66F;}
+		.st9{fill:#F7C56E;}
+		.st10{fill:#F8C771;}
+		.st11{fill:#F9C975;}
+		.st12{fill:#F9C872;}
+		.st13{fill:#BACF30;}
+
+figure.image {
+	width: 400;
+	height: 400;
+}
